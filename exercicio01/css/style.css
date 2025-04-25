@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Franklin Gothic Medium";
+    background-color: black;
+    padding: 20px 0px;
+    color: #63525a;
+}
+
+h2 {
+    font-family: "Franklin Gothic Medium";
+    padding: 20px 0px;
+    font-style: italic;
+    text-shadow: 5px 5px 20px black;
+      text-decoration: underline;
+}
+
+p {
+    padding: 20px 0px;
+    font-style: italic;
+}
+
+span {
+    font-size: 20pt;
+    text-shadow: 1px 1px 5px #fff;
+}
+
+button:hover {
+    background: #63525a;
+    transform: scale(1.2);
+}
+
+button {
+    font-family: "Franklin Gothic Medium";
+    margin: 3%;
+    box-shadow: 5px 5px 20px black;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: 0.2s;
+}
+
+form {
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: black;
+    text-shadow: 5px 5px 10px white;
+    margin-bottom: 50px;
+}
+
+input {
+    font-family: "Franklin Gothic Medium";
+    font-size: 10pt;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 20px black;
+}
+
+footer {
+    font-family: "Franklin Gothic Medium";
+    font-style: italic;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #63525a;
+    text-align: center;
+    padding: 20px 0px;
+}
